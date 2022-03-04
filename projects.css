@@ -1,0 +1,140 @@
+* {
+    background-color: rgb(238, 235, 223);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin:0;
+}
+
+.NavUp {
+    top:0;
+    width : 100%;
+    height : 85px;
+    background-color: rgba(168, 169, 252, 0.96);
+    display:flex;
+    position: -webkit-sticky;
+    position: sticky;
+    color: white;
+    z-index: 1;
+    border-bottom:2px solid #5025FF;
+}
+
+.NavUpBut {
+    width: 30%;
+    height: 70%;
+    max-width: 250px;
+    background:#7879F1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin:auto;
+    text-align: center;
+}
+
+.Project_Container {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #989aeb;
+    width:98%;
+    height: 450px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 50px;
+}
+
+.Project_Title {
+    margin-top: 20px;
+    align-self: center;
+    background-color: inherit;
+    width: 35%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#Project-Title {
+    font-size: 200%;
+    color:#B765B9ED;
+    font-weight: bold;
+}
+
+.Projects_Listbox {
+    background-color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    padding:10px;
+}
+
+.Project_Butn {
+    width:30%;
+    max-width: 400px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #8c8dec;
+    color:rgb(93, 217, 255);
+    padding-top: 15px;
+    border: 2px solid #7879F1;
+    border-radius: 5px;
+}
+
+
+.NavDown {
+    bottom:0;
+    width : 100%;
+    height : 120px;
+    background-color: rgb(191, 192, 247);
+    display:flex;
+    margin:auto;
+    position: -webkit-sticky;
+    position: sticky;
+    color: white;
+}
+
+#Intro {
+    background-color: inherit;
+    align-self: center;
+    margin-left: 3%;
+}
+
+.ContactButns {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: inherit;
+    justify-content: space-between;
+    height:20px;
+    object-fit: contain;
+    padding: 15px;
+    margin-left:80px;
+    margin-right: 80px;
+}
+
+a.ButnPics {
+    background-color: inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+a>img {
+    align-self: center;
+    border-radius: 10px;;
+    height:50px;
+    border:3px solid #5025FF;
+    margin: 15px auto;
+    background-color: inherit;
+}
+
+a {
+    background-color: inherit;
+    color:inherit;
+    text-decoration: none;
+}
